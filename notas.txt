@@ -1,11 +1,72 @@
-variables a revisar
+filtrar por variables que empiecen con la letra P
+incluir las variables que no empiezan con P1_1
+que están en la lista, tirar las que empiezan
+con P en la lista
 
-p5_21: monto de gasto mensual
-p2_22: monto de ingreso ideal para cubrir gastos
-ingreso_m: ingreso mensual por trabajo
-fac_ele: factor de expansión
-edad_v: edad años cumplidos
-p5_7: tiene hijos? 1=si 2=no 
+variables para tirar para el logit (NO USAR)
+p3_6_1
+p3_6_2
+p3_6_3
+p4_2
+p4_3
+paren
+p5_4a
+p5_6
+p5_19
 
 
-palabras clave: gasto, ingreso, deuda, credito
+variables para quedarse que no empiezan con P
+llavehog
+llavemod
+llavesde
+llaveviv
+ent
+tloc
+region
+sexo
+edad_v
+niv
+n_ren*
+filtro_s4_1
+filtro_s5_3
+filtro_s5_2
+filtro_s5_3_1
+filtro_s5_4
+filtro_s6_1
+filtro_s6_2
+n_ren
+ingreso_mensual
+gasto_mensual
+pob_objetivo
+niv_bienes
+niv_estres
+conf_finan
+gra_control
+orien_fut
+impulsivid
+orien_acci
+optimismo
+gtos_ahorr
+fac_ele
+
+
+Variables no categóricas (nivel)
+P1_1
+p1_2
+p1_3
+p2_1
+p5_8
+p5_9_2
+p5_10_2
+p5_19 (normalizar, ingreso por actividad)
+p5_21 (gasto mensual)
+p5_22 (ingreso ideal)
+p7_4
+p8_4
+depen_sum
+
+
+
+PENDIENTES DE CODIFICAR
+p6_12
+p6_13
