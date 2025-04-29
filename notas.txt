@@ -3,7 +3,7 @@ incluir las variables que no empiezan con P1_1
 que están en la lista, tirar las que empiezan
 con P en la lista
 
-variables para tirar para el logit (NO USAR)
+(A): variables para tirar para el logit (NO USAR)
 p3_6_1
 p3_6_2
 p3_6_3
@@ -13,20 +13,21 @@ paren
 p5_4a
 p5_6
 p5_19
+p1_8_1
+p5_19 
+p5_19a
+p5_21 
+p6_12
+p6_13
 
 
-variables para quedarse que no empiezan con P
-llavehog
-llavemod
-llavesde
-llaveviv
-ent
-tloc
-region
-sexo
+(B): variables para quedarse que no empiezan con P
+ent 
+tloc 
+region 
+sexo 
 edad_v
-niv
-n_ren*
+niv 
 filtro_s4_1
 filtro_s5_3
 filtro_s5_2
@@ -34,7 +35,6 @@ filtro_s5_3_1
 filtro_s5_4
 filtro_s6_1
 filtro_s6_2
-n_ren
 ingreso_mensual
 gasto_mensual
 pob_objetivo
@@ -48,25 +48,28 @@ orien_acci
 optimismo
 gtos_ahorr
 fac_ele
+depen_sum
 
 
-Variables no categóricas (nivel)
+(C): Variables no categóricas (nivel)
 P1_1
 p1_2
 p1_3
 p2_1
-p5_8
-p5_9_2
-p5_10_2
-p5_19 (normalizar, ingreso por actividad)
-p5_21 (gasto mensual)
-p5_22 (ingreso ideal)
-p7_4
+p5_22
 p8_4
-depen_sum
+edad_v
+ingreso_mensual
+gasto_mensual
 
 
+#######VARIABLES RELEVANTES (EXCLUIR DE LOGIT)
+fac_ele = factor de expansión
 
-PENDIENTES DE CODIFICAR
-p6_12
-p6_13
+
+procedimiento de limpieza de data:
+1. filtrar "data" para quedarse con todas las variables que empiecen con p + las que estén en la lista (B)
+
+2. tirar (eliminar) las variables que están en la lista (A)
+
+3. Crear variables binarias por categoría (excluyendo las de la lista (C), son niveles)
