@@ -1,0 +1,11 @@
+variables a revisar
+
+p5_21: monto de gasto mensual
+p2_22: monto de ingreso ideal para cubrir gastos
+ingreso_m: ingreso mensual por trabajo
+fac_ele: factor de expansión
+edad_v: edad años cumplidos
+p5_7: tiene hijos? 1=si 2=no 
+
+
+palabras clave: gasto, ingreso, deuda, credito
