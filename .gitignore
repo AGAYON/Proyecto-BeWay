@@ -1,0 +1,12 @@
+
+
+#carpeta de archivos de trabajo
+dtas/
+
+# Archivos de salida
+graficas/
+# Entorno virtual
+sobredeuda/
+
+# Archivos de entorno
+.env
