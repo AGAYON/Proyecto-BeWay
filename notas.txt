@@ -1,9 +1,6 @@
-filtrar por variables que empiecen con la letra P
-incluir las variables que no empiezan con P1_1
-que están en la lista, tirar las que empiezan
-con P en la lista
 
-(A): variables para tirar para el logit (NO USAR)
+
+(A): variables para eliminar (NO USAR)
 p3_6_1
 p3_6_2
 p3_6_3
@@ -21,7 +18,7 @@ p6_12
 p6_13
 
 
-(B): variables para quedarse que no empiezan con P
+(B): variables para conservar en el df que no empiezan con P
 ent 
 tloc 
 region 
@@ -51,7 +48,7 @@ fac_ele
 depen_sum
 
 
-(C): Variables no categóricas (nivel)
+(C): Variables no categóricas (nivel, no convertir)
 P1_1
 p1_2
 p1_3
@@ -63,12 +60,12 @@ ingreso_mensual
 gasto_mensual
 
 
-#######VARIABLES RELEVANTES (EXCLUIR DE LOGIT)
+#######VARIABLES RELEVANTES (mantener en df)
 fac_ele = factor de expansión
 
 
 procedimiento de limpieza de data:
-1. filtrar "data" para quedarse con todas las variables que empiecen con p + las que estén en la lista (B)
+1. filtrar "data" para quedarse con todas las variables que empiecen con "p" y con las que estén en la lista (B)
 
 2. tirar (eliminar) las variables que están en la lista (A)
 
