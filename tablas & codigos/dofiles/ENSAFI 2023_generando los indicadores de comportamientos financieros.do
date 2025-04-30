@@ -12,10 +12,10 @@ rename *, lower
 rename p5_7 tiene_hijos
 rename p5_21 gasto_mensual
 rename ingreso_m ingreso_mensual
-rename p6_8 deuda_percepcion //esta es la variable que usaremos para el proxy
-gen pob_objetivo = cond(inlist(deuda_percepcion, 1, 2), 1, 0)
+*rename p6_8 deuda_percepcion //esta es la variable que usaremos para el proxy
+gen pob_objetivo = cond(inlist(p6_8, 1, 2), 1, 0)
 
-
+save "BASE_ENSAFI.dta", replace
 
 *******************************************************
 *****COMPORTAMIENTOS FINANCIEROS

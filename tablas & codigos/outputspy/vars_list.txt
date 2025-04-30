@@ -14,6 +14,7 @@ p1_4_10
 p1_5
 p1_6
 p1_7
+p1_8_1
 p1_8_2
 p1_8_3
 p1_8_4
@@ -85,7 +86,6 @@ p5_2_8
 p5_3
 p5_4
 p5_5
-p5_7
 p5_8
 p5_9_1
 p5_9_2
@@ -109,7 +109,7 @@ p5_18_6
 p5_18_7
 p5_20
 filtro_s5_3_1
-p5_22
+gasto_mensual
 filtro_s5_4
 p5_23_1
 p5_23_2
@@ -288,6 +288,7 @@ p10_4_4
 p10_4_5
 p10_4_6
 niv_bienes
+ingreso_mensual
 niv_estres
 conf_finan
 gra_control
@@ -298,3 +299,4 @@ optimismo
 gtos_ahorr
 depen_sum
 fac_ele
+pob_objetivo

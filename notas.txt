@@ -10,7 +10,6 @@ paren
 p5_4a
 p5_6
 p5_19
-p1_8_1
 p5_19 
 p5_19a
 p5_21 
@@ -53,11 +52,11 @@ P1_1
 p1_2
 p1_3
 p2_1
-p5_22
 p8_4
 edad_v
 ingreso_mensual
 gasto_mensual
+fac_ele
 
 
 #######VARIABLES RELEVANTES (mantener en df)
