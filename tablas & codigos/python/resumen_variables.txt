@@ -1,0 +1,36 @@
+pob_objetivo (numérico): min=0.0, max=1.0, NA=11420, dtype=float64
+
+sexo (numérico): min=0, max=1, NA=0, dtype=int8
+tiene_tarjeta (numérico): min=0, max=1, NA=0, dtype=int8
+utilizo_ahorros (numérico): min=0.0, max=1.0, NA=14224, dtype=float64
+atraso_credito (numérico): min=0.0, max=1.0, NA=14224, dtype=float64
+darse_gusto (numérico): min=0.0, max=1.0, NA=6224, dtype=float64
+adelanto_pagos (numérico): min=0.0, max=1.0, NA=6224, dtype=float64
+cumple_registro (numérico): min=0.0, max=1.0, NA=12226, dtype=float64
+no_registra (numérico): min=0.0, max=1.0, NA=8222, dtype=float64
+no_tiempo (numérico): min=0.0, max=1.0, NA=8222, dtype=float64
+registro_aburrido (numérico): min=0.0, max=1.0, NA=8222, dtype=float64
+no_pensado (numérico): min=0.0, max=1.0, NA=8222, dtype=float64
+no_sabe_como (numérico): min=0.0, max=1.0, NA=8222, dtype=float64
+gra_control (numérico): min=0, max=1, NA=0, dtype=int8
+impulsivid (numérico): min=0, max=1, NA=0, dtype=int8
+
+nivel_deuda (numérico): min=0.0, max=4.0, NA=11420, dtype=float64
+hace_no_piensa (numérico): min=0.0, max=3.0, NA=0, dtype=float64
+cuesta_habitos (numérico): min=0.0, max=3.0, NA=0, dtype=float64
+prefiere_credito (numérico): min=0.0, max=4.0, NA=0, dtype=float64
+gasta_no_ahorra (numérico): min=0.0, max=4.0, NA=0, dtype=float64
+satisfaccion_gastar (numérico): min=0.0, max=4.0, NA=0, dtype=float64
+nivel_estres (numérico): min=1.0, max=3.0, NA=0, dtype=float64
+nivel_bienestar (numérico): min=1.0, max=4.0, NA=0, dtype=float64
+edad_v (numérico): min=18, max=98, NA=0, dtype=int8
+
+gasto_mensual (numérico): min=0, max=99999, NA=0, dtype=int32
+ingreso_ideal (numérico): min=200.0, max=980000.0, NA=1426, dtype=float64
+monto_max_deuda_patr (numérico): min=0.0, max=9800000.0, NA=4013, dtype=float64
+monto_max_deuda_mens (numérico): min=0.0, max=980000.0, NA=2982, dtype=float64
+ingreso_mensual (numérico): min=0.0, max=421400.0, NA=6744, dtype=float64
+
+
+#notas
+normalizar respecto ingreso las variabels nivel (comparables por costo de capital
